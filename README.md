@@ -41,6 +41,7 @@ audio-fingerprint-matcher/
 │   └── .gitkeep               # Directory for storing test audio clips (.mp3, .wav)
 ├── .gitignore                 # Excludes heavy binary .mat and .mp3 files from version control
 └── README.md                  # System documentation
+```
 🚀 Getting Started
 Prerequisites
 MATLAB (R2020a or later recommended)
