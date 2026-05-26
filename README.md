@@ -42,7 +42,7 @@ audio-fingerprint-matcher/
 ├── .gitignore                 # Excludes heavy binary .mat and .mp3 files from version control
 └── README.md                  # System documentation
 ```
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 MATLAB (R2020a or later recommended)
 
