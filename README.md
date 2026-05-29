@@ -32,13 +32,11 @@ The system processes audio signals through four distinct phases:
 ## 📂 Project Structure
 
 ```text
-audio-fingerprint-matcher/
-├── src/
-│   └── fingerprint_system.m   # Core audio analysis, indexing, and lookup script
-├── database/
-│   └── .gitkeep               # Directory where 'fingerprintDB.mat' is saved locally
+audio-fingerprint-system/
+|── fingerprint_system.m   # Core audio analysis, indexing, and lookup script
+├── fingerprintDB.m        # database
 ├── samples/
-│   └── .gitkeep               # Directory for storing test audio clips (.mp3, .wav)
+│   └── .gitkeep               # Directory for storing test audio clips (.mp3)
 ├── .gitignore                 # Excludes heavy binary .mat and .mp3 files from version control
 └── README.md                  # System documentation
 ```
@@ -46,23 +44,21 @@ audio-fingerprint-matcher/
 Prerequisites
 MATLAB (R2020a or later recommended)
 
-Signal Processing Toolbox
-
 Running the System
 Clone the repository:
 
 Bash
-git clone [https://github.com/YOUR_USERNAME/audio-fingerprint-matcher.git](https://github.com/YOUR_USERNAME/audio-fingerprint-matcher.git)
-Open MATLAB and navigate to the project directory.
+git clone [https://github.com/Sudo-3D/audio-fingerprint-system.git](https://github.com/Sudo-3D/audio-fingerprint-system.git)
+1- Open MATLAB and navigate to the project directory.
 
-Run the script src/fingerprint_system.m.
+2- Run the script fingerprint_system.m.
 
-Select an audio file from the file explorer dialog prompt.
+3- Select an audio file from the file explorer dialog prompt.
 
-Choose whether to display visual graphs (Y/N) to view the processing pipeline stages:
+4- Choose whether to display visual graphs (Y/N) to view the processing pipeline stages:
 
-Original Spectrogram
+- Original Spectrogram
 
-After 2D Max Filter Spectrum
+- After 2D Max Filter Spectrum
 
-Resulting Constellation Map
+- Resulting Constellation Map
