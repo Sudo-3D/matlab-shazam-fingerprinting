@@ -35,10 +35,9 @@ The system processes audio signals through four distinct phases:
 audio-fingerprint-system/
 |── fingerprint_system.m   # Core audio analysis, indexing, and lookup script
 ├── fingerprintDB.m        # database
-├── samples/
-│   └── .gitkeep               # Directory for storing test audio clips (.mp3)
-├── .gitignore                 # Excludes heavy binary .mat and .mp3 files from version control
-└── README.md                  # System documentation
+├── samples/               # Directory for storing test audio clips (.mp3)
+├── images                 # visual graphs
+└── README.md              # System documentation
 ```
 ## 🚀 Getting Started
 Prerequisites
