@@ -48,6 +48,7 @@ Clone the repository:
 
 Bash
 git clone [https://github.com/Sudo-3D/audio-fingerprint-system.git](https://github.com/Sudo-3D/audio-fingerprint-system.git)
+
 1- Open MATLAB and navigate to the project directory.
 
 2- Run the script fingerprint_system.m.
